@@ -1,0 +1,80 @@
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+label {
+  width: 300px;
+  height: 30px;
+}
+
+span {
+  color: red;
+  font-size: 15px;
+  font-style: italic;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 0.5px solid #eeeeee;
+  padding-left: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+form input:last-of-type {
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  background-color: #574dcc;
+  border-style: hidden;
+}
+
+.withRedBorder {
+  border-color: red;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  margin-top: 100px;
+}
+
+.steptwo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.steptwo h1 {
+  text-align: center;
+}
+
+.div-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 20px;
+  background-color: #f2f2f2;
+}
+
+.btn-register {
+  padding-left: 30px;
+  padding-right: 30px;
+}
