@@ -74,6 +74,7 @@ const Form = (props) => {
             name="inputPasswordConfirm"
             className={error !== "" && "withRedBorder"}
           ></input>
+
           <input type="submit" value="Register"></input>
         </form>
       </div>
